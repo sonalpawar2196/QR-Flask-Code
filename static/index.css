@@ -1,0 +1,418 @@
+body{ }
+
+@font-face {
+    font-family: RadikalW01_Black_bold;
+    src: url('../fonts/radikal_font_family/RadikalW01-Bold.ttf');
+    src: url('../fonts/radikal_font_family/RadikalW01-Bold.eot');
+    src: url('../fonts/radikal_font_family/RadikalW01-Bold.woff');
+	font-weight:bold;
+}
+
+@font-face {
+    font-family: RadikalW01_thin;
+    src: url('../fonts/radikal_font_family/RadikalW01-Light.ttf');
+    src: url('../fonts/radikal_font_family/RadikalW01-Light.eot');
+    src: url('../fonts/radikal_font_family/RadikalW01-Light.woff');
+	font-weight:bold;
+}
+@font-face {
+    font-family: RadikalW01-Medium;
+src: url('../fonts/radikal_font_family/RadikalW01-Medium.ttf');
+
+}
+
+@font-face {
+    font-family: RadikalW01-Light;
+src: url('../fonts/radikal_font_family/RadikalW01-Light.ttf');
+
+}
+
+@font-face {
+    font-family: RadikalW01-Bold;
+src: url('../fonts/radikal_font_family/RadikalW01-Bold.ttf');
+
+}
+
+@font-face {
+    font-family: CenturyGothic-bold;
+src: url('../fonts/radikal_font_family/CenturyGothic-bold.ttf');
+
+}
+
+@font-face {
+    font-family:GOTHICB;
+src: url('../fonts/radikal_font_family/GOTHICB.TTF');
+
+}
+
+
+@font-face {
+    font-family:OPENSANS-REGULAR;
+src: url('../fonts/radikal_font_family/OPENSANS-REGULAR.TTF');
+
+}
+
+@font-face {
+    font-family:OPENSANS-SEMIBOLD;
+src: url('../fonts/radikal_font_family/OPENSANS-SEMIBOLD.TTF');
+
+}
+
+.clear{    clear: both;}
+.jain_container{ margin:0px; padding:0px;}
+.jain_container .medias{margin-top: 15px;}
+.jain_container .medias ul{ padding:0px; margin:0px; }
+.jain_container .medias ul li{  display:inline;  padding:7px 0px;}
+/* .jain_container .medias i {    font-size: 18px;} */
+.jain_container  .navbar-brand{ height:inherit;}
+.jain_container .form-control{border-radius: 0px;border: 2px solid #adadad;}
+.jain_container  .form-horizontal_x{
+    margin-top: 10px;
+}
+.form-horizontal_x .col-sm-4 {    padding: 3px;}
+.form-horizontal_x .col-sm-3 {    padding: 3px;}
+.form-horizontal_x .col-sm-2 {    padding: 3px;}
+.jain_container .navbar-default{position: absolute;    top: 20px;     background-color: rgba(255, 255, 255, 0.72);}
+
+.jain_container .nav>li>a{padding: 15px 10px;color:#4c1f1e;font-family: RadikalW01_Black_bold;}
+
+.jain_container .btn-default {
+    color: #fff;
+    background-color: #ff523f;
+    border-color: #ff523f;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+.jain_container .navbar-nav{    margin-top: 12px;}
+.jain_container .btn-default:hover{ background:#000; border-color:#000;}
+.medias ul li a {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #fff;
+    line-height: 30px;
+    background: #4c1f1e;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+.classus p{color:#4c1f1e;padding-top: 10px;}
+.why_bookonline p{color:#4c1f1e;   font-family: RadikalW01-Medium; font-size:18px;}
+.medias ul li a:hover {    background: #000;}
+.jain_container .carousel-caption{    top: 38%;}
+
+.jain_container .tagline h3	{font-family: RadikalW01-Light;font-size: 42px;text-transform: uppercase;text-shadow: 0px 0px 2px #c29c78;}
+.jain_container .tagline h3  span{    font-family: RadikalW01-Bold; font-size:60px; letter-spacing:3px;}
+
+.new_years {
+    border: 1px solid #fff;
+    width: 38%;
+    margin: auto;
+    padding: 10px;
+}
+.new_years_inner{background: rgba(255, 82, 63, 0.9);padding: 14px 0px;}
+.new_years_inner h4 {font-size: 22px;font-family: RadikalW01-Bold;letter-spacing: 2px;text-transform: uppercase;}
+
+.new_years_inner a {
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: RadikalW01-Bold;
+	    text-decoration: none;
+}
+.tagline hr{ width:60%;     border-top: 3px solid #eee;}
+
+.carousel-control.left {    background: transparent; }
+.carousel-control.right{    background: transparent; }
+.carousel-control{ width:inherit;}
+.banner_hotels_all  h1{font-size: 20px;font-family: RadikalW01-Bold;color:#ff523f;text-transform: uppercase;letter-spacing: 4px;padding-bottom: 30px;}
+#hotel_alls{ padding:50px  0px;}
+
+.banner_hotels_all .col-md-4{padding:0px;}
+.banner_hotels_all .col-md-8{padding:0px;}
+.banner_hotels_all .hotels_abouts{border:4px solid #f5d1a9;padding: 20px 30px;}
+.hotels_abouts h2 {
+	 font-family:GOTHICB;
+	color:#4c1f1e;
+    font-size: 22px;
+    text-transform: uppercase;
+line-height: 25px;}
+a.hotels_ex {
+    display: block;
+    width: 100%;
+    background: #4c1f1e;
+    text-align: center;
+    padding: 6px 0px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	text-decoration: none;
+	    margin-top: 20px;
+}
+
+a.booking_qx {
+    display: block;
+    width: 100%;
+    background: #ff523f;
+    text-align: center;
+    padding: 6px 0px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+	text-decoration: none;
+}
+.hotels_abouts p {
+    color: #818181;
+    font-size: 12px;
+}
+.hotels_loc {
+    background: rgba(76, 31, 30, 0.71);
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    left: 10%;
+	    padding: 10px 20px;
+}
+
+.hotels_loc span {
+    color: #4c1f1e;
+    background: #f5d1a9;
+    font-size: 18px;
+	padding: 5px;
+}
+.hotels_loc h3 {
+    color: #fff;
+    margin: 10px 0;
+}
+.hotels_loc p {
+    color: #fff;
+}
+
+#myCarousel_hotels .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{    margin-left: -50px;    font-size: 50px;     color: #4c1f1e;}
+#myCarousel_hotels .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{    margin-right: -50px;     font-size: 50px;    color: #4c1f1e;}
+#myCarousel_hotels .carousel-control{opacity: .9;}
+
+.banner_hotels_all_abouts p{font-family: RadikalW01-Medium;line-height: 30px;text-align: center;}
+.banner_hotels_all_abouts p span{ color:#ff523f;}
+.all_offers_in .col-md-4{ padding:5px;}
+.offers_off {
+    margin-top: -117px;
+    display: -webkit-box;
+    background: rgba(120, 64, 61, 0.71);
+    width: 100%;
+    position: relative;
+    padding: 15px 0px;
+}
+.offers_off h4{
+    font-family: RadikalW01_Black_bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+.offers_off h4 span{
+    display: block;
+    font-family: RadikalW01_thin;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 38px;
+}
+.offers_off p{
+    font-family: RadikalW01_thin;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+a.offers_link{
+    font-family: RadikalW01_Black_bold;
+    color: #ff523f;
+    font-size: 20px;
+    text-decoration: none;
+}
+#offers_out{ padding-top:40px;}
+
+#myCarousel_wedding .carousel-indicators {
+    position: absolute;
+    bottom: 70px;
+    right: 0%;
+    z-index: 15;
+    left: inherit;
+    width: 22%;
+    }
+.wedding_slide_tag {
+    position: absolute;
+    z-index: 999;
+    top: 24%;
+    left: 10%;
+    color: #fff;
+}
+
+.wedding_slide_tag h3 {
+	  font-family: RadikalW01_Black_bold;
+    display: table-caption;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.wedding_slide_tag h3  span{
+	  font-family: RadikalW01_thin;
+	
+}
+.wedding_forms {
+    display: block;
+    z-index: 999;
+    position: relative;
+    width: 50%;
+    left: 50%;
+    margin-top: -4%;
+}
+ .wedding_forms .form-control{    border: none;}
+ .wedd_btn{ width:100%; font-family: RadikalW01_Black_bold;     letter-spacing: 1px;
+    padding: 10px 0px;}
+	.wedd_sel{width:100%;color: #4c1f1e;font-family: RadikalW01_Black_bold;height: 44px;     text-transform: uppercase;     letter-spacing: 1px;} 
+	#footersl{background: url(../images/footers.png);padding: 150px 0px 50px 0px;background-repeat: no-repeat;background-position-y: center;border-bottom: 8px solid #4c1f1e;}
+	.site_menus ul {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    width: 63%;
+}
+.site_menus ul li {
+    display: inline;
+    padding: 4px;
+}
+.site_menus a {
+    color: #000;
+    line-height: 30px;
+	    text-decoration: none;
+}
+.site_menus {
+    padding: 10px 0px;
+}
+.abouts_footers p{font-family:OPENSANS-REGULAR;color:#696969;padding: 10px 0px;line-height: 30px;font-size: 14px;}
+.hotelslog img{margin-bottom: 30px;}
+
+.barands_menus {
+    text-align: center;
+}
+.barands_menus ul {
+    margin-bottom: 40px;
+    padding: 0px;
+}
+.barands_menus ul li {
+    display: inline;
+    padding: 8px;
+}
+.barands_menus a {
+    color: #4c1f1e;
+    font-weight: 600;
+	font-family: OPENSANS-REGULAR;
+	    text-decoration: none;
+}
+.footers_adds {
+    border-right: 1px solid #000;
+}
+.footers_adds h3{
+    font-family: OPENSANS-SEMIBOLD;
+    font-size: 20px;
+    color: #000;
+}
+.footers_adds p{
+    font-family: OPENSANS-REGULAR;
+    color: #696969;
+}
+.footers_adds span {
+    display: block;
+}
+.footers_media{
+    text-align: right;
+}
+.footers_media h3{
+    text-align: left;
+    padding-left: 55%;
+    font-family: OPENSANS-SEMIBOLD;
+    font-size: 20px;
+    color: #000;
+}
+.footers_media ul{}
+.footers_media ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.footers_media ul li a{
+    display: inline-block;
+    border: 1px solid #000;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.footers_copyright {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+.footers_copyright p{
+    font-size: 16px;
+    font-family: OPENSANS-REGULAR;
+    font-weight: bold;
+}
+.footers_copyright p a {
+    color: #000;
+	 text-decoration: none;
+}
+.footers_media ul li a i {
+    font-size: 18px;
+    color: #000;
+}
+.hotelslog .col-md-4{ padding:0px;}
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+    display: block;
+	padding: 10px 5px;
+    border-bottom: 1px solid #ca7167;
+    color: #4c1f1e;
+    font-family: RadikalW01_Black_bold;
+    text-transform: uppercase;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+
+
+.jain_container .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{    color: #f45541;    background-color: rgba(231, 231, 231, 0);}
